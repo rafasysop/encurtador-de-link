@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  box-shadow: 0 0 8px rgba(0,0,0,.5);
+  margin: 10px;
+  padding: 10px 45px;
+}
+
+ul li a {
+  color:red;
+  font-size: 20px;
+  font-weight: 900;
+}
